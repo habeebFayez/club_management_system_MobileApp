@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "C M S",
+    "slug": "myappname",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "notification": {
+        "sound": "default",
+        "vibrate": true,
+        "icon": "./assets/images/logo.png"
+      },
+      "package": "com.habeeb.fayez.myappname"
+    },
+    "web": {
+      "favicon": "./assets/images/logo.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "bbc32fbf-97a8-4839-9975-f61e0d7db6f2"
+      }
+    },
+    "owner": "habeeb.fayez"
+  }
+}

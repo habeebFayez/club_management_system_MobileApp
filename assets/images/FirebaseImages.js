@@ -1,0 +1,1 @@
+export const defaultProfileImage = 'https://firebasestorage.googleapis.com/v0/b/cmsystem-f147d.appspot.com/o/images%2Favatar-default-svgrepo-com%20(2).png?alt=media&token=14229782-b880-4b98-954f-035a19692e04'

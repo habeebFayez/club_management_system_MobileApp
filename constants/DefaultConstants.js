@@ -1,0 +1,2 @@
+export const USER_DEFAULT_IMAGE = 'https://firebasestorage.googleapis.com/v0/b/cmsystem-f147d.appspot.com/o/images%2Fprofile-user-svgrepo-com.png?alt=media&token=0f883b64-6196-4245-be8c-d948277cb113'
+export const CLUB_DEFAULT_IMAGE = 'https://firebasestorage.googleapis.com/v0/b/cmsystem-f147d.appspot.com/o/images%2Fno-image-available-icon-sign-.png?alt=media&token=0fb703c3-5fa3-4de6-b9f3-f48c1b93cf20'
