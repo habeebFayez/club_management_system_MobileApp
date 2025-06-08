@@ -37,6 +37,65 @@ The project is structured into several key directories:
 - **`PrivateRoute/`**: Manages protected routes and authentication checks.
 - **`navigators/`**: Contains stack and tab navigators for seamless navigation.
 
+## Backend Integration
+This mobile app integrates with a robust Spring Boot backend, which provides secure RESTful APIs for club and event management. The backend repository can be found at [CMS_Spring_Backend](https://github.com/habeebFayez/CMS_Spring_Backend.git).
+
+### Backend Features
+- Club creation, editing, and management
+- User roles: Admin, Manager, Student
+- Event management for clubs
+- Category and membership management
+- JWT-based authentication and authorization
+- Firebase push notifications
+- MySQL database integration
+- Secure environment variable configuration
+- RESTful API endpoints
+
+### Backend Tech Stack
+- Java 11
+- Spring Boot 2.6+
+- Spring Security (JWT)
+- MySQL
+- Firebase Admin SDK
+- Maven
+
+### Backend Setup
+1. **Clone the backend repository:**
+   ```sh
+   git clone https://github.com/habeebFayez/CMS_Spring_Backend.git
+   cd CMS_Spring_Backend
+   ```
+2. **Configure environment variables:**
+   - Create a `.env` file in the project root with the following variables:
+     ```env
+     DB_URL=jdbc:mysql://localhost:3306/your_db_name
+     DB_USERNAME=your_db_user
+     DB_PASSWORD=your_db_password
+     JWT_SECRET=your_jwt_secret
+     JWT_EXPIRATION=86400000
+     FIREBASE_CONFIG_PATH=src/main/resources/your-firebase-adminsdk.json
+     ```
+   - Ensure `.env` is **not** committed to version control.
+3. **Install dependencies:**
+   ```sh
+   mvn clean install
+   ```
+4. **Run database migrations** (if any).
+5. **Start the backend server:**
+   ```sh
+   mvn spring-boot:run
+   ```
+   The server will start on `http://localhost:8080` by default.
+
+### API Integration
+- All endpoints are prefixed with `/api/`
+- JWT authentication is required for protected routes
+- Example endpoints:
+  - `POST /api/club/createClub` — Create a new club
+  - `PUT /api/club/editClub` — Edit club details
+  - `GET /api/club/getAllClubs` — List all clubs
+  - `POST /api/auth/login` — User login
+
 ## Installation
 1. Clone the repository:
    ```sh
@@ -71,4 +130,7 @@ This project is part of my graduation project. Contributions, issues, and featur
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+For questions or support, contact [habeeb.fayez@gmail.com](mailto:habeeb.fayez@gmail.com).
 
