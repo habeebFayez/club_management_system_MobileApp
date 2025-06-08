@@ -6,7 +6,7 @@ Club Management System: A React Native mobile application designed for managing 
 - Profile Management - Users can view and edit their profiles.
 - Club & Event Management - View club details, upcoming events, and schedules.
 - Admin Dashboard - Admins can oversee clubs, members, and event statistics.
-- Animated UI Components - Smooth transitions and interactions for better UX.
+- Animated UI Components - Enjoy smooth transitions and interactions for an enhanced user experience.
 
 --** Technologies Used
 - React Native - Cross-platform mobile development.
@@ -14,7 +14,7 @@ Club Management System: A React Native mobile application designed for managing 
 - React Navigation - Stack and tab-based navigation.
 - AsyncStorage - Persistent user authentication data.
 - Axios - API communication for user authentication & data fetching.
-- Reanimated - Smooth UI animations for better UX.
+- Reanimated - Smooth UI animations for an enhanced user experience.
 - JWT Authentication - Secure user sessions.
 
 -** Future Enhancements
@@ -24,5 +24,5 @@ Club Management System: A React Native mobile application designed for managing 
 - Offline Data Storage
 
 ******* Contributions ********
-This project is part of the my graduation project.
+This project is part of my graduation project.
 
